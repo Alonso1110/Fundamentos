@@ -59,7 +59,7 @@ public class Player : MonoBehaviour
     {
         if (collision.CompareTag("Block")) {
             Destroy(collision.gameObject);
-            progressBar.UpdateBar(1);
+            progressBar.UpdateBar(2);
         }
     }
     private void OnDrawGizmos()
